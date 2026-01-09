@@ -1,0 +1,221 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.btn-primary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #22c55e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.navbar {
+    background: white;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background: 
+                url(images/hero-bg.png);
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 span {
+    color: #22c55e;
+}
+
+.badge {
+    background: white;
+    color: #22c55e;
+    padding: 6px 14px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.hero-buttons {
+    margin-top: 25px;
+}
+
+.hero-buttons button {
+    margin: 8px;
+}
+
+.problems {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+.problem-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.solution {
+    padding: 80px 20px;
+    background: #f9fafb;
+}
+
+.solution-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+
+.solution-text {
+    flex: 1;
+}
+
+.solution-text ul {
+    margin-top: 20px;
+}
+
+.solution-text li {
+    margin-bottom: 10px;
+}
+
+.solution-graphic {
+    flex: 1;
+    font-size: 120px;
+    text-align: center;
+}
+
+.cta {
+    padding: 80px 20px;
+    text-align: center;
+    background: #f3f4f6;
+}
+
+.footer {
+    background: #0f172a;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.circle-area {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.solution-container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 50px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.checklist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.checklist li {
+  margin-bottom: 15px;
+}
+
+.card-logo {
+  background-color: orangered;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px
+}
